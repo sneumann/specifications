@@ -1,4 +1,4 @@
-# Profile for DefinedTerm and DefinedTermSet
+# Profile for DefinedTerm
 
 The two SchemaOrg types DefinedTerm and DefinedTermSet
 are allowed in many places as property values.
@@ -29,3 +29,18 @@ and those from OBO, OWL and SKOS, following work in https://doi.org/10.1186/2041
 
 It is not intended to duplicate the content and expressivity
 of powerful ontology representations and serialisations like OWL or RDF.
+
+# Profile for DefinedTermSet
+
+Properties of controlled vocabulary available through terminology and lookup services
+or portals can be de captured in the `DefinedTermSet` profile.
+
+There are also cases where controlled vocabulary are not available through
+terminology and lookup services or portals and which are not formalized
+into an ontology. In such cases, there may not be a suitable IRI and additional
+information would be needed. Eg- The ClinicalTrials.gov's
+Protocol Registration and Results System (PRS) Schema
+has controlled vocabulary used as values for many properties but these terms
+are not necessarily in a formal ontology. In this case, it is important
+to leverage the `DefinedTermSet` profile to ensure sufficient information
+is included for provenance.

@@ -1,0 +1,13 @@
+{
+  "@type": "DefinedTerm",
+  "@id": "http://purl.obolibrary.org/obo/CHMO_0000524"
+  "name": "liquid chromatography-mass spectrometry",
+  "url": "http://purl.obolibrary.org/obo/CHMO_0000524",
+  "termCode": "0000524",
+  "inDefinedTermSet": {
+    "@type": "DefinedTermSet",
+    "@id": "http://purl.obolibrary.org/obo/chmo.owl"
+    "name": "Chemical Methods Ontology",
+    "url": "https://github.com/rsc-ontologies/rsc-cmo"
+  }
+}
